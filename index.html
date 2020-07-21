@@ -1,0 +1,185 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+	<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+	<script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>	
+	<script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+	<title>Autorisen Automation</title>
+	   <link rel="canonical" href="https://autorisen.com">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <style amp-custom>
+  body {
+    background-color: white;
+  }
+  amp-img {
+    background-color: gray;
+    border: 1px solid black;
+  }
+	h1 {
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	} 
+	h3 {
+	color: black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	} 
+	
+	.bar {
+	 width: responsive;
+	  height: 10vh;
+	  background-color: rgb(22,132,160);
+	  border: 1px solid green;
+	  padding: 1px;
+	  margin: 1px;
+	  font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-shadow: 1px 1px 2px white;
+	display: flex;
+	align-items: center;
+
+  }
+  .say {
+	height: 40px;
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	text-shadow: 1px 1px 2px black;
+	display: flex;
+	align-items: center;
+	font-size: 3vw;
+	} 
+	.hero{
+	height: 100vh;
+	width: 100vw;
+	background-image: url(http://www.autorisen.com/images/header1200x1000.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	display: flex;
+	align-items: center;
+	font-size: 4vw;
+	}
+  .spacer{
+	height: 20vh;
+	width: 98vw;
+	background-color: #eeeeee;
+	margin: auto;
+	mar-top: 5vh;
+	border-radius: 10px;
+	}
+	:root {
+    --color-primary: #005AF0;
+    --color-text-light: #fff;
+  }
+ 
+  amp-social-share.custom-style {
+    background-color: #008080;
+    background-image: url('https://raw.githubusercontent.com/google/material-design-icons/master/social/1x_web/ic_share_white_48dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  amp-social-share.rounded {
+    border-radius: 50%;
+    background-size: 60%;
+    color: var(--color-text-light);
+    background-color: var(--color-primary);
+  }
+</style>
+  </head>
+  <body>
+ 
+  <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 pt2 md-pt0">
+    
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" 
+	class="ampstart-navbar-trigger  pr2 absolute top-0 pr0 mr2 mt2">
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
+	class="block"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+    </div> 
+        
+    <div class="ampstart-headerbar-fixed center m0 p0 flex justify-center nowrap absolute top-0 right-0 pt2 pr3">
+      <div class="mr2">
+      </div>
+            
+  </header>
+  
+
+<amp-sidebar id="header-sidebar" class="ampstart-sidebar px3  md-flex flex-column justify-content items-center justify-center" layout="nodisplay">
+  <div class="flex justify-start items-center ampstart-sidebar-header">
+    <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
+  </div>
+  <nav class="ampstart-sidebar-nav ampstart-nav">
+    <ul class="list-reset m0 p0 ampstart-label">
+        <li>
+          <a href="https://capetowncraft.com/" class="text-decoration-none block 22">		 
+          </a>
+        </li>
+          <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="index.html">Home</a></li>
+          <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="index.html">Contact us</a></li>
+		   <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="index.html">Test</a></li>
+    </ul>
+  </nav>
+    <h3 class="h7 block pt3">follow us</h3>
+<ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+    <li>
+        <a href="https://www.facebook.com/EvesShot" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewBox="0 0 56 55"><title>Facebook</title><path d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43" class="ampstart-icon ampstart-icon-fb"></path></svg></a>
+    </li>
+    <li>
+        <a href="https://www.instagram.com/eves.shot/" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 54 54"><title>instagram</title><path d="M27.2 6.1c-5.1 0-5.8 0-7.8.1s-3.4.4-4.6.9c-1.2.5-2.3 1.1-3.3 2.2-1.1 1-1.7 2.1-2.2 3.3-.5 1.2-.8 2.6-.9 4.6-.1 2-.1 2.7-.1 7.8s0 5.8.1 7.8.4 3.4.9 4.6c.5 1.2 1.1 2.3 2.2 3.3 1 1.1 2.1 1.7 3.3 2.2 1.2.5 2.6.8 4.6.9 2 .1 2.7.1 7.8.1s5.8 0 7.8-.1 3.4-.4 4.6-.9c1.2-.5 2.3-1.1 3.3-2.2 1.1-1 1.7-2.1 2.2-3.3.5-1.2.8-2.6.9-4.6.1-2 .1-2.7.1-7.8s0-5.8-.1-7.8-.4-3.4-.9-4.6c-.5-1.2-1.1-2.3-2.2-3.3-1-1.1-2.1-1.7-3.3-2.2-1.2-.5-2.6-.8-4.6-.9-2-.1-2.7-.1-7.8-.1zm0 3.4c5 0 5.6 0 7.6.1 1.9.1 2.9.4 3.5.7.9.3 1.6.7 2.2 1.4.7.6 1.1 1.3 1.4 2.2.3.6.6 1.6.7 3.5.1 2 .1 2.6.1 7.6s0 5.6-.1 7.6c-.1 1.9-.4 2.9-.7 3.5-.3.9-.7 1.6-1.4 2.2-.7.7-1.3 1.1-2.2 1.4-.6.3-1.7.6-3.5.7-2 .1-2.6.1-7.6.1-5.1 0-5.7 0-7.7-.1-1.8-.1-2.9-.4-3.5-.7-.9-.3-1.5-.7-2.2-1.4-.7-.7-1.1-1.3-1.4-2.2-.3-.6-.6-1.7-.7-3.5 0-2-.1-2.6-.1-7.6 0-5.1.1-5.7.1-7.7.1-1.8.4-2.8.7-3.5.3-.9.7-1.5 1.4-2.2.7-.6 1.3-1.1 2.2-1.4.6-.3 1.6-.6 3.5-.7h7.7zm0 5.8c-5.4 0-9.7 4.3-9.7 9.7 0 5.4 4.3 9.7 9.7 9.7 5.4 0 9.7-4.3 9.7-9.7 0-5.4-4.3-9.7-9.7-9.7zm0 16c-3.5 0-6.3-2.8-6.3-6.3s2.8-6.3 6.3-6.3 6.3 2.8 6.3 6.3-2.8 6.3-6.3 6.3zm12.4-16.4c0 1.3-1.1 2.3-2.3 2.3-1.3 0-2.3-1-2.3-2.3 0-1.2 1-2.3 2.3-2.3 1.2 0 2.3 1.1 2.3 2.3z" class="ampstart-icon ampstart-icon-instagram"></path></svg></a>
+    </li>
+    <li>
+        <a href="https://twitter.com/evethestill" target="_blank" class="inline-block p1" aria-label="Link to AMP HTML Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.2" viewBox="0 0 53 49"><title>Twitter</title><path d="M45 6.9c-1.6 1-3.3 1.6-5.2 2-1.5-1.6-3.6-2.6-5.9-2.6-4.5 0-8.2 3.7-8.2 8.3 0 .6.1 1.3.2 1.9-6.8-.4-12.8-3.7-16.8-8.7C8.4 9 8 10.5 8 12c0 2.8 1.4 5.4 3.6 6.9-1.3-.1-2.6-.5-3.7-1.1v.1c0 4 2.8 7.4 6.6 8.1-.7.2-1.5.3-2.2.3-.5 0-1 0-1.5-.1 1 3.3 4 5.7 7.6 5.7-2.8 2.2-6.3 3.6-10.2 3.6-.6 0-1.3-.1-1.9-.1 3.6 2.3 7.9 3.7 12.5 3.7 15.1 0 23.3-12.6 23.3-23.6 0-.3 0-.7-.1-1 1.6-1.2 3-2.7 4.1-4.3-1.4.6-3 1.1-4.7 1.3 1.7-1 3-2.7 3.6-4.6" class="ampstart-icon ampstart-icon-twitter"></path></svg></a>
+    </li>
+</ul>
+    
+</amp-sidebar>
+
+
+  <div class="bar">
+<h3>AUTORISEN</h3>
+  </div>
+	<div class="hero">
+	<h1 amp-fx="parallax"
+		data-parallax-factor="1.7">
+		Better Future through Automation
+	</h1>
+	</div>
+	<div class="spacer">
+	<footer class="">
+	<amp-social-share type="system" data-mode="replace"></amp-social-share>
+<amp-social-share type="email"></amp-social-share>
+<amp-social-share type="facebook"
+  data-param-app_id="254325784911610"></amp-social-share>
+<amp-social-share type="linkedin"></amp-social-share>
+<amp-social-share type="pinterest"
+  data-param-media="https://amp.dev/static/samples/img/amp.jpg"></amp-social-share>
+<amp-social-share type="tumblr"></amp-social-share>
+<amp-social-share type="twitter"></amp-social-share>
+<amp-social-share type="whatsapp"></amp-social-share>
+<amp-social-share type="line"></amp-social-share>
+</footer>	
+	</div>
+
+  </body>
+</html>
